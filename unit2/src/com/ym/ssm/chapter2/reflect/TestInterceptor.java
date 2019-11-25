@@ -1,7 +1,5 @@
 package com.ym.ssm.chapter2.reflect;
 
-import org.junit.Test;
-
 public class TestInterceptor {
     public static void main(String[] args) {
         test();
