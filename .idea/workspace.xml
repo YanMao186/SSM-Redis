@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="第二章完结">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit3/unit3.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,11 +106,8 @@
         <entry file="file://$PROJECT_DIR$/md/第二章.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1343">
-                <caret line="624" lean-forward="true" selection-start-line="624" selection-end-line="624" />
-                <folding>
-                  <element signature="imports" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="1100">
+                <caret line="624" selection-start-line="624" selection-end-line="624" />
               </first_editor>
               <second_editor />
             </state>
@@ -165,12 +162,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -191,60 +188,6 @@
           </expand>
           <select />
         </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reflect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
       </pane>
     </panes>
   </component>
@@ -252,7 +195,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/code/IdeaProjects/SSM+Redis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -371,6 +314,7 @@
       <workItem from="1574688449830" duration="3270000" />
       <workItem from="1574862091403" duration="1847000" />
       <workItem from="1574864078232" duration="246000" />
+      <workItem from="1574865638772" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1574686870557</created>
@@ -411,13 +355,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9117000" />
+    <option name="totallyTimeSpent" value="9700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.12313433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/Interceptor1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -620,14 +556,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/Interceptor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/md/第二章.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1343">
-            <caret line="624" lean-forward="true" selection-start-line="624" selection-end-line="624" />
-            <folding>
-              <element signature="imports" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="1100">
+            <caret line="624" selection-start-line="624" selection-end-line="624" />
           </first_editor>
           <second_editor />
         </state>

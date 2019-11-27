@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/unit2/unit2.iml" filepath="$PROJECT_DIR$/unit2/unit2.iml" />
+      <module fileurl="file://D:/code/IdeaProjects/SSM+Redis/unit3/unit3.iml" filepath="D:/code/IdeaProjects/SSM+Redis/unit3/unit3.iml" />
     </modules>
   </component>
 </project>
