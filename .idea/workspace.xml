@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="108">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -130,6 +130,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,10 +185,6 @@
         </subPane>
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
-            <path>
-              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\code\IdeaProjects\SSM+Redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
             <path>
               <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
@@ -363,7 +362,7 @@
       <workItem from="1574685908513" duration="329000" />
       <workItem from="1574686700511" duration="833000" />
       <workItem from="1574688449830" duration="3270000" />
-      <workItem from="1574862091403" duration="1517000" />
+      <workItem from="1574862091403" duration="1783000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1574686870557</created>
@@ -379,15 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574863304281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第二章完结">
+      <created>1574863639895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574863639895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8541000" />
+    <option name="totallyTimeSpent" value="8807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.12100213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -600,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="108">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
