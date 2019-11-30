@@ -2,6 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/BuilderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/CglibProxyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/HelloWorldImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/InterceptorJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/JdkProxyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/JingDongObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/MyInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ObserverTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ReflectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ReflectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TaoBaoObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestCGLIBProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TicketBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TicketHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,11 +105,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/md/第三章.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="567">
+                <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -177,6 +211,69 @@
             <path>
               <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reflect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit3" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit3" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -313,7 +410,7 @@
       <workItem from="1574864078232" duration="826000" />
       <workItem from="1574864943153" duration="481000" />
       <workItem from="1574866570427" duration="6347000" />
-      <workItem from="1575035177681" duration="1194000" />
+      <workItem from="1575035177681" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1574686870557</created>
@@ -357,14 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574864339832</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第三章初始化">
+      <created>1575116209135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575116209135</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17719000" />
+    <option name="totallyTimeSpent" value="19392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -403,7 +507,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
     <MESSAGE value="第二章完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二章完结" />
+    <MESSAGE value="第三章初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三章初始化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/CglibProxyExample.java">
@@ -500,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/md/第三章.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/md/第二章.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -584,6 +681,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/第三章.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="567">
+            <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
