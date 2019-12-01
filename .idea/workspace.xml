@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="" />
+    <list default="true" id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +207,59 @@
           <expand>
             <path>
               <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\code\IdeaProjects\SSM+Redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reflect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="unit3" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
@@ -376,7 +431,7 @@
       <workItem from="1574864078232" duration="826000" />
       <workItem from="1574864943153" duration="481000" />
       <workItem from="1574866570427" duration="6347000" />
-      <workItem from="1575035177681" duration="3120000" />
+      <workItem from="1575035177681" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1574686870557</created>
@@ -441,14 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575118330257</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第三章初始化">
+      <created>1575118476541</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575118476541</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19645000" />
+    <option name="totallyTimeSpent" value="19856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
