@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="第二章完结">
+    <list default="true" id="5ee68d7a-5575-416a-b27a-1e88937087e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/BuilderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/CglibProxyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/HelloWorldImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/Interceptor3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/InterceptorJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/JdkProxyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/JingDongObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/MyInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ObserverTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ReflectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/ReflectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TaoBaoObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestCGLIBProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TestJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TicketBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/unit2/com/ym/ssm/chapter2/reflect/TicketHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit3/unit3.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,109 +37,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/TestInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/unit3/src/com/ym/ssm/chapter3/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/ProductList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/JingDongObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/TaoBaoObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/ObserverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/TicketHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="19" selection-start-line="2" selection-end-line="19" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/TicketBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/md/第二章.md">
+        <entry file="file://$PROJECT_DIR$/md/第三章.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1100">
-                <caret line="624" selection-start-line="624" selection-end-line="624" />
+              <first_editor relative-caret-position="351">
+                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/Interceptor1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -167,7 +103,7 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -184,6 +120,83 @@
               <item name="SSM+Redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="unit2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm-redis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Repositories\Git Repositories\Github\ssm-redis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="out" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="production" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="unit2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ym" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reflect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -355,12 +368,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9700000" />
+    <option name="totallyTimeSpent" value="9771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +411,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
     <MESSAGE value="第二章完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二章完结" />
+    <MESSAGE value="去重" />
+    <option name="LAST_COMMIT_MESSAGE" value="去重" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/CglibProxyExample.java">
