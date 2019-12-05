@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee68d7a-5575-416a-b27a-1e88937087e4" name="Default Changelist" comment="" />
+    <list default="true" id="5ee68d7a-5575-416a-b27a-1e88937087e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit4/unit4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/unit4/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +21,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit3/src/com/ym/ssm/chapter3/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit4/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -26,9 +43,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/md/第三章.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="756">
-                <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="7668">
+                <caret line="284" selection-start-line="284" selection-end-line="284" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,6 +80,7 @@
         <option value="$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/TicketBuilder.java" />
         <option value="$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/BuilderDemo.java" />
         <option value="$PROJECT_DIR$/md/第三章.md" />
+        <option value="$PROJECT_DIR$/unit4/pom.xml" />
       </list>
     </option>
   </component>
@@ -72,6 +90,11 @@
         <option name="mavenHome" value="D:/Tool/apache/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\Tool\apache\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -215,7 +238,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e252ca2b-0012-452e-ba3f-06cd939f276e" name="Default Changelist" comment="" />
+      <changelist id="5ee68d7a-5575-416a-b27a-1e88937087e4" name="Default Changelist" comment="" />
       <created>1574608432812</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -228,6 +251,8 @@
       <workItem from="1574862091403" duration="1847000" />
       <workItem from="1574864078232" duration="246000" />
       <workItem from="1574865638772" duration="583000" />
+      <workItem from="1575292408312" duration="2419000" />
+      <workItem from="1575550666490" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1574686870557</created>
@@ -278,16 +303,31 @@
       <option name="project" value="LOCAL" />
       <updated>1575200979122</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="去除冗余">
+      <created>1575201344981</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575201344981</updated>
+    </task>
+    <task id="LOCAL-00009" summary="第三章完结">
+      <created>1575289658430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575289658430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10020000" />
+    <option name="totallyTimeSpent" value="17680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" x="267" y="73" width="579" height="913" id="Project" order="0" visible="true" weight="0.17286652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +366,9 @@
     <MESSAGE value="第二章完结" />
     <MESSAGE value="去重" />
     <MESSAGE value="修改文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文档" />
+    <MESSAGE value="去除冗余" />
+    <MESSAGE value="第三章完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三章完结" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unit2/src/com/ym/ssm/chapter2/reflect/CglibProxyExample.java">
@@ -497,6 +539,30 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1100">
             <caret line="624" selection-start-line="624" selection-end-line="624" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit3/src/com/ym/ssm/chapter3/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit4/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/第三章.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="7668">
+            <caret line="284" selection-start-line="284" selection-end-line="284" />
           </first_editor>
           <second_editor />
         </state>
