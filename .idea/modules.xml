@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/unit2/unit2.iml" filepath="$PROJECT_DIR$/unit2/unit2.iml" />
-      <module fileurl="file://D:/code/IdeaProjects/SSM+Redis/unit3/unit3.iml" filepath="D:/code/IdeaProjects/SSM+Redis/unit3/unit3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit4/unit4.iml" filepath="$PROJECT_DIR$/unit4/unit4.iml" />
     </modules>
   </component>
 </project>
