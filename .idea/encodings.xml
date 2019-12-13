@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/unit5/src/com/ssm/chapter5/enumeration/SexEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit5/src/com/ssm/chapter5/pojo/Employee.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit5/src/com/ssm/chapter5/pojo2/Role2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit5/src/com/ssm/chapter5/pojo2/User2.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
