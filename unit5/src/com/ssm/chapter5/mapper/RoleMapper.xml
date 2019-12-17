@@ -8,9 +8,9 @@
      -->
     
 	<resultMap id="roleMap" type="role">
-		<id property="id" column="id" />
-		<result property="roleName" column="role_name" />
-		<result property="note" column="note" />
+		<id property="id" column="id" jdbcType="INTEGER" />
+		<result property="roleName" column="role_name" jdbcType="VARCHAR" />
+		<result property="note" column="note" jdbcType="VARCHAR" />
 	</resultMap>
 
 	<select id="getRoleUseResultMap" parameterType="long" resultMap="roleMap">
@@ -57,6 +57,26 @@
 		limit #{page.start}, #{page.limit}
 	</select>
 
+	<select id="findByRowBounds" resultType="role">
+	SELECT
+	id,
+	role_name
+	AS
+	roleName,
+	note
+	FROM t_role
+	WHERE role_name LIKE concat('%', #{roleName}, '%')
+	AND note LIKE concat('%', #{note}, '%')
+</select>
+<!--	<select id="findByRowBounds" resultMap="roleMap" parameterType="String">
+		SELECT
+		id,
+		role_name,
+		note
+		FROM t_role
+		WHERE role_name LIKE concat('%', #{roleName}, '%')
+		AND note LIKE concat('%', #{note}, '%')
+	</select>-->
 
 	<insert id="insertRole" parameterType="role" useGeneratedKeys="true"
 		keyProperty="id">

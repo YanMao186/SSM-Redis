@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 
@@ -58,6 +59,7 @@ public class Chapter5Main {
 			parameterMap.put("note", "1");
 			List<Role> roles = roleMapper.findRolesByMap(parameterMap);
 			System.out.println(roles.size());
+			System.out.println(roles);
 		} catch(Exception ex) {
 			ex.printStackTrace();
 		} finally {
@@ -66,8 +68,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testFindRolesByAnnotation() {
+	@Test
+	public void testFindRolesByAnnotation() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -83,8 +85,8 @@ public class Chapter5Main {
 		}
 	}
 
-	
-	public static void testFindRolesByBean() {
+	@Test
+	public void testFindRolesByBean() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -102,20 +104,23 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testFindByMix() {
+	@Test
+	public void testFindByMix() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
 			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
 			RoleParams roleParam = new RoleParams();
-			roleParam.setNote("1");
-			roleParam.setRoleName("1");
+			roleParam.setNote("n");
+			roleParam.setRoleName("r");
 			PageParams pageParams = new PageParams();
 			pageParams.setStart(0);
 			pageParams.setLimit(100);
 			List<Role> roles = roleMapper.findByMix(roleParam, pageParams);
 			System.out.println(roles.size());
+			for (Role role : roles) {
+				System.out.println(role);
+			}
 		} catch(Exception ex) {
 			ex.printStackTrace();
 		} finally {
@@ -124,8 +129,25 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testGetRoleUseResultMap() {
+	@Test
+	public void testFindByRowBounds() {
+		SqlSession sqlSession = null;
+		try { sqlSession = SqlSessionFactoryUtils.openSqlSession();
+		RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+		RowBounds rowBounds = new RowBounds(0,20);
+		List<Role> roleList = roleMapper.findByRowBounds("role_name", "note", rowBounds);
+		System.err.println(roleList.size());
+			System.err.println(roleList);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if (sqlSession != null) {
+				sqlSession.close();
+			}
+		}
+	}
+	@Test
+	public void testGetRoleUseResultMap() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -140,8 +162,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testInsertRole() {
+	@Test
+	public void testInsertRole() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -162,8 +184,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testInsertRole2() {
+	@Test
+	public void testInsertRole2() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -184,8 +206,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testUpdateRole() {
+	@Test
+	public void testUpdateRole() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -205,8 +227,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testDeleteRole() {
+	@Test
+	public void testDeleteRole() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -222,8 +244,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testGetEmployee() {
+	@Test
+	public void testGetEmployee() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -238,8 +260,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testGetEmployee2() {
+	@Test
+	public void testGetEmployee2() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -254,8 +276,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testUserRole() {
+	@Test
+	public void testUserRole() {
 		SqlSession sqlSession = null;
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
@@ -273,8 +295,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testOneLevelCache() {
+	@Test
+	public void testOneLevelCache() {
 		SqlSession sqlSession = null;
 		Logger logger = Logger.getLogger(Chapter5Main.class);
 		try {
@@ -291,8 +313,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testOneLevelCache2() {
+	@Test
+	public void testOneLevelCache2() {
 		SqlSession sqlSession = null;
 		SqlSession sqlSession2 = null;
 		Logger logger = Logger.getLogger(Chapter5Main.class);
@@ -319,8 +341,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testPdCountRole() {
+	@Test
+	public void testPdCountRole() {
 		PdCountRoleParams params = new PdCountRoleParams();
 		SqlSession sqlSession = null;
 		try {
@@ -339,8 +361,8 @@ public class Chapter5Main {
 			}
 		}
 	}
-	
-	public static void testPdFindRole() {
+	@Test
+	public void testPdFindRole() {
 		PdFindRoleParams params = new PdFindRoleParams();
 		SqlSession sqlSession = null;
 		try {
