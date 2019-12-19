@@ -248,10 +248,11 @@ public class Chapter5Main {
 	public void testGetEmployee() {
 		SqlSession sqlSession = null;
 		try {
+			Logger logger = Logger.getLogger(Chapter5Main.class);
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
 			EmployeeMapper employeeMapper = sqlSession.getMapper(EmployeeMapper.class);
 			Employee employee = employeeMapper.getEmployee(1L);
-			System.out.println(employee.getWorkCard().getPosition());
+			logger.info(employee.getBirthday());
 		} catch(Exception ex) {
 			ex.printStackTrace();
 		} finally {

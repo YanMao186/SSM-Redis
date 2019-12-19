@@ -1,8 +1,8 @@
 package com.ssm.chapter5.enumeration;
 
 public enum SexEnum {
-	MALE(1, "??"),
-	FEMALE(0, "?");
+	MALE(1, "男"),
+	FEMALE(0, "女");
 
 	private int id;
 	private String name;
