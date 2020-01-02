@@ -284,10 +284,9 @@ public class Chapter5Main {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
 			RoleMapper2 roleMapper2 = sqlSession.getMapper(RoleMapper2.class);
 			Role2 role2 = roleMapper2.getRole(1L);
-			System.out.println(role2.getUserList().size());
+			role2.getUserList();
 			UserMapper2 userMapper2 = sqlSession.getMapper(UserMapper2.class);
-			User2 user2 = userMapper2.getUser(1L);
-			System.out.println(user2.getRoleList().size());
+			userMapper2.getUser(1L);
 		} catch(Exception ex) {
 			ex.printStackTrace();
 		} finally {
@@ -304,7 +303,7 @@ public class Chapter5Main {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
 			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
 			Role role = roleMapper.getRole(1L);
-			logger.info("�ٻ�ȡһ��POJO......");
+			logger.info("........在获取一次POJO........");
 			Role role2 = roleMapper.getRole(1L);
 		} catch(Exception ex) {
 			ex.printStackTrace();
@@ -324,12 +323,12 @@ public class Chapter5Main {
 			sqlSession2 = SqlSessionFactoryUtils.openSqlSession();
 			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
 			Role role = roleMapper.getRole(1L);
-			//��Ҫ�ύ�������һ�����棬MyBatis�ŻỺ�����SqlSessionFactory����
+			//需要提交，如果是一级缓存，MyBatis才会缓存对象到SqlSessionFactory层面
 			sqlSession.commit();
-			logger.info("��ͬsqlSession�ٻ�ȡһ��POJO......");
+			logger.info("不同sqlSession再获取一次POJO......");
 			RoleMapper roleMapper2 = sqlSession2.getMapper(RoleMapper.class);
 			Role role2 = roleMapper2.getRole(1L);
-			//��Ҫ�ύ��MyBatis�Ż������SQLSessionFactory
+			//需要提交MyBatis才缓存对象到SQLSessionFactory
 			sqlSession2.commit();
 		} catch(Exception e) {
 			logger.info(e.getMessage(), e);

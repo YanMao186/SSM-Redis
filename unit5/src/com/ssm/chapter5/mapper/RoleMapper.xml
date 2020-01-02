@@ -3,9 +3,9 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ssm.chapter5.mapper.RoleMapper">
     <!-- 测试一级缓存  -->
-    <!-- 
+
     <cache/>
-     -->
+
     
 	<resultMap id="roleMap" type="role">
 		<id property="id" column="id" jdbcType="INTEGER" />
